@@ -9,7 +9,7 @@ package Creational.Factory.Bloch;
  * @author yasir
  * Bloch factory metotundan farklı olarak nesnelerin oluşturulmasından kendisinin sorumlu olmasını ama bunu public yapılandırıcılar aracılığıyla değil static, örnek oluşturup döndüren...
  * metotlar ile yapılması fikrini ortaya atmıştır. Bu metotlar farklı isimlerde olup yapılandırıcıların veremediği bazı bilgileri vererek farklı durumları temsil ederek yapılandırma...
- * esnasında dışarıdan verilmesi gereken parametre sayısını azalttığı için nesne oluşturmayı kolaylaştıracaktırç
+ * esnasında dışarıdan verilmesi gereken parametre sayısını azalttığı için nesne oluşturmayı kolaylaştıracaktır.
  */
 public class Employee {
 
