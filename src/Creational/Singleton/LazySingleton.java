@@ -18,7 +18,7 @@ public final class LazySingleton {
     public static LazySingleton getInstance() {
         /*
         Multithread programlarda istemciler getInstance metoduna ilk ve aynı aynı anda eriştiklerinde her ikisi de if ifadesine içine girip örnek oluşturabilir.
-        Bu durum sınıfın sadece tek bir örneğinin olmasının şart olduğu durumlarda sıkınıt oluşturabilir.
+        Bu durum sınıfın sadece tek bir örneğinin olmasının şart olduğu durumlarda sıkıntı oluşturabilir.
         */
         if(instance == null)
             instance = new LazySingleton();

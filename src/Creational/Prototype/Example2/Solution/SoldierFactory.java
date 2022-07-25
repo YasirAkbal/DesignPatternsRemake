@@ -29,7 +29,7 @@ public class SoldierFactory implements Factory {
     }
    
     /*
-    Farklı takımlar için askerlerin sadece vest, gun ve id değerlerinin farklı olduğu durumda her defasına diğer parametrelerin bir cunstructor ile geçilmesine gerek kalmadı.
+    Farklı takımlar için askerlerin sadece vest, gun ve id değerlerinin farklı olduğu durumda her defasında diğer parametrelerin bir constructor ile geçilmesine gerek kalmadı.
     Prototype patternı var olan prototip nesnelerini klonlayarak bu sorunu ortadan kaldırdı. Artık sadece ihtiyacımız olan, farklılık gösteren alanları set etmemiz yeterli.
     */
     private static class Soldiers {

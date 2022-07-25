@@ -23,7 +23,7 @@ public class FactoryTest {
         Factory managerFactory = new ManagerFactory();
         Factory directorFactory = new DirectorFactory();
 
-        // Add more employees
+        
         hr.addNewEmployee(employeeFactory.create("Ali"));
         hr.addNewEmployee(employeeFactory.create("Lale"));
         hr.addNewEmployee(employeeFactory.create("Metin"));
@@ -34,8 +34,7 @@ public class FactoryTest {
         hr.listEmployees();
 
         System.out.println();
-
-        // Now pay time!
+        
         List<Employee> employees = hr.getEmployees();
 
         for (Employee employee : employees) {
