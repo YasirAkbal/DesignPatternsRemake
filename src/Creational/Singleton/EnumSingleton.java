@@ -15,4 +15,6 @@ public enum EnumSingleton {
     
     public int i = 1;
     public String s = "string";
+    
+    public void work() { }
 }
